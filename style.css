@@ -531,8 +531,8 @@ h1:hover {
   font-size: 25px;
   font-weight: 1000;
   background-color: transparent;
+  text-decoration: none;
   text-align: center;
-  padding-top: 27%;
 }
 /* Section - 06 */
 #section-06 {
