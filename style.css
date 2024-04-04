@@ -194,6 +194,7 @@ h1:hover {
   color: #979292;
   font-size: 20px;
   padding-bottom: 35px;
+  text-shadow: 1px 1px 5px #000, 0 0 10px #ff4500, 0 0 20px #ff4500;
 }
 
 /* Section - 03 */
@@ -532,7 +533,10 @@ h1:hover {
   font-weight: 1000;
   background-color: transparent;
   text-decoration: none;
-  text-align: center;
+  /* text-align: center; */
+  position: absolute;
+  top: 35%;
+  left: 40px;
 }
 /* Section - 06 */
 #section-06 {
