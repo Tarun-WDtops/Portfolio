@@ -1,0 +1,545 @@
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1400px) {
+  /* Nav */
+  nav ul {
+    font-size: 23px;
+  }
+
+  /* Section - 01 */
+  .hello {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  #section-01 h2 {
+    font-size: 50px;
+    padding-bottom: 15px;
+  }
+  .firstbtn {
+    padding: 17px 60px;
+    /* margin-top: 10px; */
+  }
+
+  /* Section - 02 */
+
+  .about-01 {
+    font-size: 60px;
+    left: 570px;
+  }
+  .about {
+    font-size: 120px;
+  }
+  .main-div {
+    gap: 200px;
+  }
+  .me {
+    width: 400px;
+    height: 350px;
+  }
+  .part-01 {
+    width: 200px;
+    font-size: 20px;
+  }
+  .part-01 h2 {
+    padding-bottom: 30px;
+  }
+  .second {
+    gap: 25px;
+  }
+  .part-02 p {
+    font-size: 25px;
+    padding-bottom: 36px;
+  }
+  /* Section - 03 */
+
+  .resume-01 {
+    font-size: 60px;
+    left: 570px;
+  }
+  .resume {
+    font-size: 120px;
+  }
+  .boxes {
+    gap: 60px;
+  }
+  .box01 {
+    width: 800px;
+  }
+  .box {
+    width: 600px;
+  }
+  .secondbtn {
+    padding: 17px 60px;
+    left: 593px;
+  }
+
+  /* Section - 04 */
+
+  .col {
+    margin: 0 5%;
+  }
+  .skill li {
+    width: 260px;
+  }
+  em {
+    font-size: 18px;
+  }
+  /* Section - 05 */
+
+  .project-01 {
+    font-size: 60px;
+    left: 583px;
+  }
+  .project {
+    font-size: 120px;
+  }
+  .img-container-01 {
+    gap: 50px;
+  }
+  .image {
+    width: 400px;
+    height: 250px;
+  }
+
+  /* Section - 06 */
+
+  .contact-01 {
+    font-size: 60px;
+    left: 570px;
+  }
+  .contact {
+    font-size: 120px;
+  }
+  .icon-container {
+    gap: 60px;
+  }
+  .add {
+    font-size: 30px;
+  }
+  .addd {
+    font-size: 23px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+  .about-01 {
+    left: 492px;
+    top: 50px;
+  }
+  .resume-01 {
+    left: 493px;
+    top: 50px;
+  }
+  .project-01 {
+    left: 503px;
+    top: 50px;
+  }
+  .contact-01 {
+    left: 493px;
+    top: 50px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+  /* Nav */
+  nav {
+    width: 100%;
+    height: 68px;
+    gap: 60px;
+  }
+  nav ul {
+    gap: 40px;
+  }
+  .logo {
+    width: 120px;
+  }
+
+  /* Section - 01 */
+  #section-01 {
+    padding-top: 50px;
+    padding-left: 80px;
+    height: 350px;
+  }
+  /* h1 {
+    font-size: 35px;
+  }
+  #section-01 h2 {
+    font-size: 25px;
+  }
+  .firstbtn {
+    padding: 8px 25px;
+  } */
+  /* Section - 02 */
+  .about {
+    font-size: 70px;
+  }
+  .about-01 {
+    font-size: 35px;
+    left: 420px;
+    top: 50px;
+  }
+  .main-div {
+    gap: 130px;
+  }
+  .part-01 {
+    width: 120px;
+    font-size: 12px;
+  }
+  .part-01 h2 {
+    padding-bottom: 30px;
+  }
+  .second {
+    gap: 15px;
+  }
+  .part-02 {
+    padding-top: 2px;
+  }
+  .part-02 p {
+    font-size: 15px;
+    padding-bottom: 33px;
+  }
+  .me {
+    width: 260px;
+    height: 270px;
+  }
+  /* Section - 03 */
+
+  .resume {
+    font-size: 70px;
+  }
+  .resume-01 {
+    font-size: 35px;
+    left: 420px;
+    top: 50px;
+  }
+  .box01 {
+    width: 600px;
+  }
+  .boxes {
+    gap: 30px;
+  }
+  .box {
+    width: 400px;
+  }
+  .secondbtn {
+    left: 410px;
+  }
+
+  /* Section - 04 */
+  #section-04 {
+    height: 350px;
+  }
+  .col {
+    margin: 0 4%;
+  }
+  .skill li {
+    width: 177px;
+  }
+
+  /* Section - 05 */
+
+  .project {
+    font-size: 70px;
+  }
+  .project-01 {
+    font-size: 35px;
+    left: 426px;
+    top: 85px;
+  }
+  .img-container-01 {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .img-container {
+    margin-bottom: 20px;
+  }
+  .image {
+    width: 280px;
+    height: 180px;
+  }
+
+  /* Section - 06 */
+
+  .contact {
+    font-size: 70px;
+  }
+  .contact-01 {
+    font-size: 35px;
+    left: 420px;
+    top: 50px;
+  }
+  .icon-container {
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  .icon-container :nth-child(4) {
+    padding-right: 90px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+  /* Nav */
+  nav {
+    width: 100%;
+    height: 57px;
+    gap: 20px;
+  }
+  nav ul {
+    gap: 30px;
+  }
+  .logo {
+    width: 100px;
+  }
+
+  /* Section - 01 */
+  #section-01 {
+    padding-top: 50px;
+    padding-left: 52px;
+    height: 350px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  #section-01 h2 {
+    font-size: 25px;
+  }
+  .firstbtn {
+    padding: 8px 25px;
+  }
+  /* Section - 02 */
+  .about {
+    font-size: 70px;
+  }
+  .about-01 {
+    font-size: 35px;
+    left: 307px;
+    top: 50px;
+  }
+  .main-div {
+    gap: 100px;
+  }
+  .part-01 {
+    width: 100px;
+    font-size: 10px;
+  }
+  .part-01 h2 {
+    padding-bottom: 30px;
+  }
+  .second {
+    gap: 15px;
+  }
+  .part-02 {
+    padding-top: 2px;
+  }
+  .part-02 p {
+    font-size: 13px;
+    padding-bottom: 32px;
+  }
+  .me {
+    width: 240px;
+    height: 250px;
+  }
+  /* Section - 03 */
+
+  .resume {
+    font-size: 70px;
+  }
+  .resume-01 {
+    font-size: 35px;
+    left: 307px;
+    top: 50px;
+  }
+  .box01 {
+    width: 600px;
+  }
+  .boxes {
+    gap: 30px;
+  }
+  .box {
+    width: 340px;
+  }
+  .secondbtn {
+    left: 300px;
+  }
+
+  /* Section - 04 */
+  #section-04 {
+    height: 350px;
+  }
+  .col {
+    margin: 0 4%;
+  }
+  .skill li {
+    width: 150px;
+  }
+
+  /* Section - 05 */
+
+  .project {
+    font-size: 70px;
+  }
+  .project-01 {
+    font-size: 35px;
+    left: 307px;
+    top: 50px;
+  }
+  .img-container-01 {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .img-container {
+    margin-bottom: 20px;
+  }
+  .image {
+    width: 220px;
+    height: 150px;
+  }
+
+  /* Section - 06 */
+
+  .contact {
+    font-size: 70px;
+  }
+  .contact-01 {
+    font-size: 35px;
+    left: 307px;
+    top: 50px;
+  }
+  .icon-container {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .icon-container :nth-child(4) {
+    padding-right: 90px;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+  /* Nav */
+  nav {
+    width: 100%;
+    height: 57px;
+    gap: 20px;
+  }
+  nav ul {
+    gap: 15px;
+  }
+  .logo {
+    width: 100px;
+  }
+
+  /* Section - 01 */
+  #section-01 {
+    padding-left: 35px;
+  }
+
+  /* Section - 02 */
+  .about {
+    font-size: 70px;
+  }
+  .about-01 {
+    font-size: 35px;
+    left: 210px;
+    top: 50px;
+  }
+  .main-div {
+    gap: 50px;
+  }
+  .part-01 {
+    width: 100px;
+    font-size: 10px;
+  }
+  .part-01 h2 {
+    padding-bottom: 30px;
+  }
+  .second {
+    gap: 15px;
+  }
+  .part-02 {
+    padding-top: 2px;
+  }
+  .part-02 p {
+    font-size: 13px;
+    padding-bottom: 32px;
+  }
+  .me {
+    width: 190px;
+    height: 250px;
+  }
+
+  /* Section - 03 */
+
+  .resume {
+    font-size: 70px;
+  }
+  .resume-01 {
+    font-size: 35px;
+    left: 210px;
+    top: 50px;
+  }
+  .box01 {
+    width: 500px;
+  }
+  .boxes {
+    gap: 20px;
+  }
+  .box {
+    width: 260px;
+  }
+  .secondbtn {
+    left: 205px;
+  }
+
+  /* Section - 04 */
+  #section-04 {
+    height: 350px;
+  }
+  .col {
+    margin: 0 3%;
+  }
+  .skill li {
+    width: 130px;
+  }
+
+  /* Section - 05 */
+
+  .project {
+    font-size: 70px;
+  }
+  .project-01 {
+    font-size: 35px;
+    left: 210px;
+    top: 50px;
+  }
+  .img-container-01 {
+    gap: 0px;
+    flex-wrap: wrap;
+  }
+  .img-container {
+    margin-bottom: 20px;
+  }
+  .image {
+    width: 400px;
+    height: 250px;
+  }
+
+  /* Section - 06 */
+
+  .contact {
+    font-size: 70px;
+  }
+  .contact-01 {
+    font-size: 35px;
+    left: 210px;
+    top: 50px;
+  }
+  .icon-container {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}

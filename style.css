@@ -349,7 +349,7 @@ h1:hover {
 
 #section-04 {
   width: 90%;
-  height: 500px;
+  height: 450px;
   padding-top: 50px;
   margin: 0 auto;
   font: 12px normal Arial;
@@ -378,7 +378,7 @@ h1:hover {
 
 .col {
   width: 23%;
-  margin: 0 5%;
+  margin: 0 4%;
   position: relative;
   float: left;
   padding: 5%;
@@ -635,6 +635,7 @@ h1:hover {
 .addd:hover {
   text-shadow: 1px 1px 5px #000, 0 0 10px #ff4500, 0 0 20px #ff4500;
 }
+
 /* Scroll - Bar */
 ::-webkit-scrollbar {
   width: 10px;
