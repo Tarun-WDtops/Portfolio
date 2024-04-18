@@ -44,10 +44,10 @@ nav a:hover::after {
   width: 100%;
 }
 
-.underline {
+/* .underline {
   color: #ffbd39;
   display: none;
-}
+} */
 nav ul {
   display: flex;
   list-style-type: none;
